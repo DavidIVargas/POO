@@ -64,11 +64,16 @@ public class Instrucciones {
             i +=1;
             System.out.print(i);
         }
-        */
+        
         i = 0;
         do{
             i += 1;
             System.out.println(i);
         }while(1 <= 2);
+    */
+        //El ciclo for trabaja con tres argumentos y van en la cabecera "()" {inicio, final, contador}
+        for (i=1 ; i<=3; i++){
+            System.out.println(i);
+        }
     }
 }
