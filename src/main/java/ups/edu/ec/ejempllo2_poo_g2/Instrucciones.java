@@ -58,11 +58,17 @@ public class Instrucciones {
     }
     public void instruccionWhile(){
         byte i;
+        /*
         i=0;
         while(i <= 2){
             i +=1;
             System.out.print(i);
         }
-        
+        */
+        i = 0;
+        do{
+            i += 1;
+            System.out.println(i);
+        }while(1 <= 2);
     }
 }
